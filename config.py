@@ -9,20 +9,20 @@ API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_USERNAME = getenv("OWNER_USERNAME","itsMeShivanshu")
-BOT_USERNAME = getenv("BOT_USERNAME" , "TheChampuBot")
-# ---------------@itsMeShivanshu-----------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "ChampuBot")
+OWNER_USERNAME = getenv("OWNER_USERNAME","『sᴀᴛʏᴀᴍ』")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@satyam_music_bot")
+# ---------------@Mr_majnu72-----------------------------------------
+BOT_NAME = getenv("BOT_NAME" , "Satyam_music_bot")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MrChampu")
+ASSUSERNAME = getenv("ASSUSERNAME" , "『sᴀᴛʏᴀᴍ』")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-#---------------------@THECHAMPU------------------------------------------
+#---------------------@mr_majnu72------------------------------------------
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-# ------------------------@TheChampuEdits----------------------------------------
+# ------------------------@mr_majnu72----------------------------------------
 LOGGER_ID = int(getenv("LOGGER_ID", -1001919135283))
-# --------------------------@TheChampuEdit--------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6664582540))
+# --------------------------@mr_majnu72--------------------------------------
+OWNER_ID = int(getenv("OWNER_ID", 5097836954))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = getenv(
@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 ) 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheChampu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheChampuClub")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/satyamnetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/satyambotsupport")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
